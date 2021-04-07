@@ -2,12 +2,15 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 .header {
   display: flex;
   align-items: center;
   padding: 20px 70px 20px 32px;
+  margin-bottom: 30px;
 }
 .menu-button {
   background-color: #fff;
@@ -42,6 +45,7 @@ body {
   padding-right: 17px;
 }
 .input-search {
+  width: 100%;
   background-color: transparent;
   border: none;
   padding: 12px 23px;
@@ -78,4 +82,44 @@ body {
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
+}
+.sidebar {
+  padding-left: 32px;
+}
+.nav-menu {
+  margin: 0 0 60px 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+.nav-item {
+  margin-bottom: 28px;
+}
+.nav-link {
+  color: #898989;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav-link:hover {
+  color: #ff0000;
+}
+.nav-link:hover .icon {
+  fill: #ff0000;
+}
+.nav-item .icon {
+  fill: #898989;
+}
+.nav-text {
+  margin-left: 13px;
+}
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
