@@ -1,3 +1,4 @@
 ## youtube-clone - project as part of study
-Technologies: HTML, CSS, JS
+
+Technologies: HTML, CSS, JS  
 Used: SVG sprites
